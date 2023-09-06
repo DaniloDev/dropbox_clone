@@ -1,6 +1,6 @@
 # Dropbox Clone - Full Stack Express.js | EJS, Firebase
 
-![preview img](/preview.png)
+![preview img](/preview.PNG)
 
 ## Dropbox Clone
 
