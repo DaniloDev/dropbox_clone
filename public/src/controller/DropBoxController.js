@@ -23,19 +23,19 @@ class DropBoxController {
 
     this.openFolder()
   }
+  
   connectFirebase() {
     var firebaseConfig = {
-      apiKey: process.env.APIKEY,
-      authDomain: process.env.AUTHDOMAIN,
-      databaseURL: process.env.DATABASEURL,
-      projectId: process.env.PROJECTID,
-      storageBucket: process.env.STORAGEBUCKET,
-      messagingSenderId: process.env.MESSAGINSENDERID,
-      appId: process.env.APPID,
+      apiKey: "AIzaSyCVMb16_XeyaNJP2Py9kvEBZB9-TuCt9B0",
+      authDomain: "dropbox-clone-8af73.firebaseapp.com",
+      databaseURL:"https://dropbox-clone-8af73.firebaseio.com",
+      projectId: "dropbox-clone-8af73",
+      storageBucket: "dropbox-clone-8af73.appspot.com",
+      messagingSenderId: "300321749106",
+      appId: "1:300321749106:web:4b5b88e7b2e1d8d1",
     };
     firebase.initializeApp(firebaseConfig);
   }
-
 
   getSelection() {
     return this.listFilesEl.querySelectorAll(".selected");
